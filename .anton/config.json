@@ -1,0 +1,38 @@
+{
+  "pipelines": {
+    "production": {
+      "branch": "master",
+      "server": "13371339"
+    }
+  },
+  "servers": {
+    "13371339": {
+      "host": "195.201.38.163",
+      "domain": "tracking.jmartz.gmbh",
+      "user": "root",
+      "folder": "/var/www"
+    }
+  },
+  "steps": [
+    {
+      "name": "Yarn Install",
+      "identifier": "yarn-install",
+      "command": "yarn:install"
+    },
+    {
+      "name": "Yarn Build",
+      "identifier": "yarn-build",
+      "command": "yarn:build"
+    },
+    {
+      "name": "Deploy",
+      "identifier": "deploy",
+      "command": "deploy"
+    },
+    {
+      "name": "Publish Version",
+      "identifier": "publish-version",
+      "command": "publish:version"
+    }
+  ]
+}

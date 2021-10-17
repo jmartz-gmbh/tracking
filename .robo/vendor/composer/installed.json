@@ -1,0 +1,41 @@
+[
+    {
+        "name": "jmartz-gmbh/robo-config",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jmartz-gmbh/robo-config.git",
+            "reference": "eaebf1fba8caf4195a490d1efa7f8b621189bd27"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jmartz-gmbh/robo-config/zipball/eaebf1fba8caf4195a490d1efa7f8b621189bd27",
+            "reference": "eaebf1fba8caf4195a490d1efa7f8b621189bd27",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": "^7.3|^7.4"
+        },
+        "time": "2020-04-02T18:26:37+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "JmartzGmbh\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "jonathan-martz",
+                "email": "github@jmartz.de"
+            }
+        ],
+        "description": "Robo Plugin for Config Managment"
+    }
+]

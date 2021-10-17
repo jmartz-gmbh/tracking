@@ -1,0 +1,15 @@
+{
+    "name": "ms-tracking/robo",
+    "description": "Ms Tracking Config for Robo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Martz",
+            "email": "git@jmartz.de"
+        }
+    ],
+    "require": {
+        "jmartz-gmbh/robo-config": "dev-master"
+    }
+}
