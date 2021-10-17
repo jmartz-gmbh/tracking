@@ -7,7 +7,7 @@
   },
   "servers": {
     "13371339": {
-      "host": "195.201.38.163",
+      "host": "157.90.122.16",
       "domain": "tracking.jmartz.gmbh",
       "user": "root",
       "folder": "/var/www"
